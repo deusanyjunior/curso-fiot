@@ -43,6 +43,7 @@ Bibliografia em inglês:
 - Kellmereit, Daniel; Daniel Obodovski. *The silent intelligence: the Internet of Things*. DnD Ventures, 2013.
 - Friess, Peter. *Internet of Things-Global Technological and Societal Trends From Smart Environments and Spaces to Green ICT*. River Publishers, 2011.
 - McRoberts, Michael. *Beginning Arduino*. New York.: Apress, 2010.
+- Carr, Joseph J. *Sensors and circuits: sensors, transducers, and supporting circuits for electronic instrumentation, measurement and control*. Prentice-Hall, Inc., 1993.
 
 Bibliografia em português:A disciplina está
 
