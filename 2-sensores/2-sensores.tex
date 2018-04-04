@@ -1,7 +1,13 @@
-\documentclass{beamer}
+\documentclass[t]{beamer}
+\usepackage[portuguese]{babel}
 \usepackage[utf8]{inputenc}
 \usetheme{Berkeley}
 \usecolortheme{seahorse}
+
+\addto\captionsportuguese{
+	\renewcommand{\figurename}{Fig.}
+	\renewcommand{\tablename}{Tab.}
+}
 
 \title{Sensores}
 \subtitle{Os diferentes tipos de sensores e suas principais características.}
@@ -139,8 +145,8 @@
 		\item Sensibilidade
 		\item Faixa
 		\item Precisão
-		\item Resolução
 		\item Exatidão
+		\item Resolução
 		\item Offset
 		\item Linearidade
 		\item Histerese
@@ -185,12 +191,11 @@
 	\frametitle{Precisão}
 	Algumas definições:
 	\begin{itemize}
-		\item  Refere-se ao grau de reproducibilidade de uma medição. Em outras palavras, medindo exatamente o mesmo valor várias vezes, um sensor ideal colocaria na saída exatamente o mesmo valor todas as vezes.
-		\item Este conceito é normalmente interpretado como sendo a diferença que existe entre o valor medido e o valor real, normalmente expresso como uma porcentagem.
+		\item  Refere-se ao grau de reproducibilidade de uma medição. Em outras palavras, medindo exatamente o mesmo valor várias vezes, um sensor ideal colocaria na saída exatamente o mesmo valor todas as vezes se for preciso.
+		\item Este conceito é normalmente interpretado como sendo a diferença que existe entre o valor medido várias vezes e o valor real, normalmente expresso como uma porcentagem.
 	\end{itemize}
-	Questão: qual é a diferença entre precisão e acurácia?!\\
 	\bigskip
-	{\scriptsize Fonte: J.J. Carr, Sensors and Circuits, Prentice Hall, 1993; Instituto NCB (\url{http://www.newtoncbraga.com.br/index.php/eletronica/52-artigos-diversos/4888-art645})} 
+	{\scriptsize Fonte: J.J. Carr, Sensors and Circuits, Prentice Hall, 1993; e  \href{http://www.newtoncbraga.com.br/index.php/eletronica/52-artigos-diversos/4888-art645}{Instituto NCB, 2018}} 
 \end{frame}
 
 \begin{frame}
@@ -199,7 +204,41 @@
 		\includegraphics[width=0.9\textwidth]{precisao}
 		\caption{Curvas de distribuição de uma medida para sensores (a) mais preciso e (b) menos preciso.}
 	\end{figure}
-	{\scriptsize Fonte: Instituto NCB (\url{http://www.newtoncbraga.com.br/index.php/eletronica/52-artigos-diversos/4888-art645})}
+	{\scriptsize Fonte: \href{http://www.newtoncbraga.com.br/index.php/eletronica/52-artigos-diversos/4888-art645}{Instituto NCB, 2018}}
+\end{frame}
+
+\begin{frame}
+\frametitle{Exatidão}
+A exatidão do sensor pode ser definida como:
+\begin{itemize}
+	\item a proximidade entre o valor real (medido por um padrão primário ou bom padrão secundário) e o valor indicado na saída do sensor.
+\end{itemize}
+{\scriptsize Fonte: J.J. Carr, Sensors and Circuits, Prentice Hall, 1993.}
+\end{frame}
+
+\begin{frame}
+\frametitle{Diferença entre precisão, exatidão e acurácia}
+\begin{columns}
+	\begin{column}{0.5\textwidth}
+		\begin{figure}
+			\includegraphics[width=0.5\textwidth]{acuracia}
+			\caption{Acurácia}
+			
+			\includegraphics[width=0.5\textwidth]{precisaosemexatidao}
+			\caption{Precisão sem exatidão}
+		\end{figure}
+	\end{column}
+	\begin{column}{0.5\textwidth}
+		\begin{figure}
+			\includegraphics[width=0.5\textwidth]{exatidaosemprecisao}
+			\caption{Exatidão sem precisão}
+			
+			\includegraphics[width=0.5\textwidth]{semprecisaosemexatidao}
+			\caption{Sem precisão e sem exatidão}
+		\end{figure}
+	\end{column}
+\end{columns}
+{\scriptsize Fonte: \href{http://blog.minitab.com/blog/real-world-quality-improvement/accuracy-vs-precision-whats-the-difference}{Minitab blog, 2018} e \href{http://www.revistabw.com.br/revistabw/probabilidade-e-estatistica-acuracia-precisao-e-exatidao/}{RevistaBW, 2018}}
 \end{frame}
 
 \begin{frame}
@@ -209,15 +248,6 @@
 		\item a menor variação incremental detectável do parâmetro de entrada que pode ser detectada no sinal de saída.
 	\end{itemize}
 	
-	{\scriptsize Fonte: J.J. Carr, Sensors and Circuits, Prentice Hall, 1993.}
-\end{frame}
-
-\begin{frame}
-	\frametitle{Exatidão}
-	A exatidão do sensor pode ser definida como:
-	\begin{itemize}
-		\item a máxima diferença entre o valor real (medido por um padrão primário ou bom padrão secundário) e o valor indicado na saída do sensor.
-	\end{itemize}
 	{\scriptsize Fonte: J.J. Carr, Sensors and Circuits, Prentice Hall, 1993.}
 \end{frame}
 
@@ -234,7 +264,7 @@
 \begin{frame}
 	\frametitle{Offset}
 	\begin{figure}
-		\includegraphics[width=0.8\textwidth]{offset}
+		\includegraphics[width=0.7\textwidth]{offset}
 		\caption{Curva característica de eletrodo de pH, mostrando a sensibilidade à temperatura.}
 	\end{figure}  	
 	{\scriptsize Fonte: J.J. Carr, Sensors and Circuits, Prentice Hall, 1993.}
@@ -244,7 +274,7 @@
 	\frametitle{Linearidade}
 	A linearidade do transdutor é uma expressão do quanto a curva real medida de um sensor se afasta da curva ideal. 
 	\begin{figure}
-		\includegraphics[width=0.5\textwidth]{linearidade}
+		\includegraphics[width=0.4\textwidth]{linearidade}
 		\caption{Curva ideal em comparação com a medida, mostrando erro de linearidade.}
 	\end{figure} 
 	{\scriptsize Fonte: J.J. Carr, Sensors and Circuits, Prentice Hall, 1993.}
@@ -304,6 +334,178 @@
 		\caption{Curva de saída e entrada do sinal, mostrando erro quadrático.}
 	\end{figure}  	
 	{\scriptsize Fonte: J.J. Carr, Sensors and Circuits, Prentice Hall, 1993.}
+\end{frame}
+
+
+\section{Sinais e dados}
+
+\begin{frame}{Tipos de sinais}
+	\begin{itemize}
+		\item Analógico
+		\item Digital
+	\end{itemize}
+	\begin{figure}
+		\includegraphics[width=0.8\textwidth]{analogicodigital}
+		
+		{\scriptsize Fonte: \href{http://www.ibytes.com.br/as-diferencas-entre-eletronica-analogica-e-eletronica-digital/}{iBytes, 2018}}
+	\end{figure}	
+\end{frame}
+
+\begin{frame}{Processamento}
+	Categorias de processamento de sinais
+	\begin{itemize}
+		\item Analógico
+		\item Digital (Digital Signal Processing - DSP)
+		\item Tempo-contínuo
+		\item Tempo-discreto
+		\item Não linear (comportamentos caóticos ou harmônicos)
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Aquisição}
+	Principais considerações
+	\begin{itemize}
+		\item Amostragem 
+%		\item Undersampling e Oversampling
+		\item Quantização
+		\item Aliasing
+%		\item Erro de abertura (Aperture error)
+		\item Jitter
+		\item Ruído
+%		\item Taxa de variação (Slew rate)
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Aquisição}
+	Amostragem
+	\begin{figure}
+		\includegraphics[width=0.8\textwidth]{amostragem}
+		
+		{\scriptsize Fonte: \href{https://en.wikipedia.org/wiki/Sampling_(signal_processing)}{Sampling (signal processing) - Wikipedia, 2018}}
+	\end{figure}	
+\end{frame}
+
+\begin{frame}{Aquisição}
+	Quantização
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{quantizacao2bits}
+				\caption{2 bits}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\includegraphics[width=0.8\textwidth]{quantizacao3bits}
+				\caption{3 bits}
+			\end{figure}
+		\end{column}
+	\end{columns}
+	{\scriptsize Fonte: \href{https://en.wikipedia.org/wiki/Quantization_(signal_processing)}{Quantization (signal processing) - Wikipedia, 2018}}
+\end{frame}
+
+
+\begin{frame}[t]{Aquisição}
+	\begin{columns}[T]
+		\begin{column}{0.5\textwidth}
+			Aliasing			
+			\begin{itemize}
+				\item Frequência de Nyquist = metade da taxa de amostragem
+				\item Taxa de Nyquist = menor taxa de amostragem que satisfaz o teorema
+				\item Teorema de Shannon-Nyquist = condição da taxa de amostragem para capturar toda informação
+			\end{itemize}
+		{\scriptsize Fonte: \href{https://en.wikipedia.org/wiki/Aliasing}{Aliasing - Wikipedia, 2018}}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\includegraphics[width=\textwidth]{aliasingpontos}
+			
+			\includegraphics[width=\textwidth]{aliasingazul}
+			
+			\includegraphics[width=\textwidth]{aliasingvermelho}
+			
+			\includegraphics[width=\textwidth]{aliasing}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}{Aquisição}
+	Jitter
+	\begin{itemize}
+		\item variação estatística do atraso na entrega de dados em uma rede
+		\item medida de variação do atraso entre os pacotes sucessivos de dados
+		\item jitters  \textit{plural} : a sense of panic or extreme nervousness (\href{https://www.merriam-webster.com/dictionary/jitter}{Merriam-Webster, 2018}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Aquisição}
+	\begin{columns}[T]
+		\begin{column}{0.4\textwidth}
+			Ruído
+			\begin{itemize}
+				\item Ruído do circuito
+				\item Distorção
+				\item Ruídos impulsos
+				\item Atenuação
+				\item Interferência
+				\item Mudança de fase
+			\end{itemize}
+		\end{column}
+		\begin{column}{0.6\textwidth}
+			\includegraphics[height=0.9\textheight]{ruidos}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}{Coleta de dados de sensores}
+	Tipos de coleta
+	\begin{itemize}
+		\item Aquisição direta
+		\item Uso de APIs
+		\item Dados abertos arquivados
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Coleta de dados de sensores}
+	Aquisição direta
+	\begin{figure}
+		\includegraphics[width=0.7\linewidth]{arduinodhtdatalogger}
+		
+		{\scriptsize Fonte: \href{http://fritzing.org/projects/75-arduino-datalogger-temperatura-e-umidita-con-dh}{Fritzing projects, 2018}}
+	\end{figure}
+\end{frame}
+
+
+\begin{frame}{Coleta de dados de sensores}
+	Uso de APIs
+	\begin{itemize}
+		\item Características
+		\begin{itemize}
+			\item REST
+			\item JSON
+			\item DaaS (Data as a Service)
+		\end{itemize}
+		\item Exemplos de APIs úteis
+		\begin{itemize}
+			\item \href{http://interscity.org/software/interscity-platform/}{InterSCity Platform}
+			\item \href{http://www.sptrans.com.br/desenvolvedores/APIOlhoVivo.aspx}{Olho Vivo SP Trans}
+			\item \href{https://community.pluvion.com.br/}{Pluvion Community}
+			\item \href{https://openweathermap.org/api}{Open Weather Map}
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Coleta de dados de sensores}
+	Dados abertos arquivados
+	\begin{itemize}
+		\item Big Data
+		\item Presente, Passado, Futuro
+		\item Dados brutos ou filtrados
+		\item Exemplos de APIs úteis
+		\begin{itemize}
+			\item \href{http://geosampa.prefeitura.sp.gov.br/}{GeoSampa}
+			\item \href{http://www.cemaden.gov.br/categoria/riscos-geo-hidrologicos/}{Cemaden}
+		\end{itemize}
+	\end{itemize}
 \end{frame}
 
 \frame{\titlepage}
