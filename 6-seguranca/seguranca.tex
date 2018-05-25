@@ -1,0 +1,84 @@
+\documentclass[t]{beamer}
+\usepackage[portuguese]{babel}
+\usepackage[utf8]{inputenc}
+\usetheme{Berkeley}
+\usecolortheme{seahorse}
+
+\addto\captionsportuguese{
+	\renewcommand{\figurename}{Fig.}
+	\renewcommand{\tablename}{Tab.}
+}
+
+\title{Segurança de dados}
+\subtitle{Como podemos oferecer segurança aos dados.}
+
+\AtBeginSection[]
+{
+	\begin{frame}
+	\frametitle{Sumário}
+	\tableofcontents[currentsection]
+\end{frame}
+}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Sumário}
+\tableofcontents
+\end{frame}
+
+\section{Vulnerabilidades}
+
+\begin{frame}{Vulnerabilidades}
+Categorias de vulnerabilidades
+% Fonte: https://www.owasp.org/images/8/8e/Infographic-v1.jpg
+\begin{itemize}
+	\item Interface Web insegura
+	\item Autenticação e Autorização insuficiente
+	\item Serviços de rede inseguros
+	\item Falta de encriptação no transporte de dados
+	\item Preocupação com privacidade
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Vulnerabilidades}
+Categorias de vulnerabilidades
+% Fonte: https://www.owasp.org/images/8/8e/Infographic-v1.jpg
+\begin{itemize}
+	\item Interface de Cloud insegura
+	\item Interface Mobile insegura
+	\item Configurabilidade da segurança insegura
+	\item Insegurança de software/firmware
+	\item Segurança física pobre
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Segurança de dados}
+Tipos de Segurança Básica
+% Fonte: http://blog.gemalto.com/wp-content/uploads/2014/04/Gemalto-Top10Security-Infographic_FINAL-resized1.jpg
+\begin{itemize}
+	\item Métodos fortes de autenticação
+	\item Atualização de softwares
+	\item Segurança física de equipamentos e portas
+	\item Estabelecer política de segurança para usuários
+	\item Encriptar dados
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Segurança de dados}
+Tipos de Segurança Básica
+\begin{itemize}
+\item Proteger dispositivos contra vírus
+\item Proteger a rede de acesso externo
+\item Executar auditoria interna de segurança
+\item Definir regras mais rígidas para administradores
+\item Avaliar política de uso de dispositivos pessoais e protocolo BYOD da organização
+\end{itemize}
+\end{frame}
+
+\frame{\titlepage}
+
+\end{document}
