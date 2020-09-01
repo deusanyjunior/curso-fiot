@@ -46,7 +46,7 @@ Bibliografia em inglês:
 - McRoberts, Michael. *Beginning Arduino*. New York.: Apress, 2010.
 - Carr, Joseph J. *Sensors and circuits: sensors, transducers, and supporting circuits for electronic instrumentation, measurement and control*. Prentice-Hall, Inc., 1993.
 
-Bibliografia em português:A disciplina está
+Bibliografia em português:
 
 - Javed, Adeel (Autor); Adas, Cláudio José (Tradutor). *Criando Projetos com Arduino Para a Internet das Coisas*. Novatec, 2017
 - Oliveira, Sergio. *Internet das Coisas com ESP8266, Arduino e Raspberry Pi*. São Paulo: Novatec, 2017.
