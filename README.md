@@ -1,8 +1,9 @@
 # Material do curso "*Fundamentos da Internet das Coisas*"
 
-Este curso está sendo criado com o intuito de prover material em português para estudantes interessados em aprender mais sobre Internet das Coisas.
+Este curso está sendo criado com o intuito de prover material em língua portuguesa para interessados em aprender mais sobre Internet das Coisas.
 
-## Parceiros:
+## Parceiros
+
 - [HardwareLivreUSP.org](HardwareLivreUSP.org)
 - [InterSCity.org](InterSCity.org)
 
@@ -10,17 +11,17 @@ Este curso está sendo criado com o intuito de prover material em português par
 
 A disciplina foi criada com base em diversos cursos online que já foram ministrados sobre o tema em outras universidades. Sua descrição foca nos temas selecionados dentre todos os cursos consultados.
 
-### Objetivos:
+### Objetivos
 
 Apresentar os principais conceitos relacionados ao desenvolvimento de aplicações voltadas para a área de Internet das Coisas (IoT), partindo das tecnologias e arquiteturas disponíveis com o intuito de implementar protótipos funcionais. Guiados pelos exercícios desenvolvidos durante a disciplina, os estudantes irão explorar diversas tecnologias de IoT, desenvolver conhecimentos sobre a experiência do usuário com tais tecnologias e tomar decisões inteligentes relacionadas ao tratamento de dados. Além disso, os resultados destas experiências poderão viabilizar novos negócios com o intuito de promover e desenvolver a economia disruptiva, facilitar a escolha de tecnologias e um melhor entendimento dos aspectos de segurança relacionados à área.
 
 Outro objetivo vem a ser o de habilitar os estudantes para trabalharem com microcontroladores como Arduino e ESPs, microcomputadores como o Raspberry Pi, diversos sensores e dispositivos atuadores, interfaces para comunicação sem fio do tipo Bluetooth e Wifi, entre outras tecnologias que permitam a transmissão de dados pela Internet. Tendo em vista que a Internet das Coisas se baseia na troca de dados pela Internet com propósito de tomada de decisão, o tratamento e análise dos dados requer uma abordagem especial considerando a informação esperada além do custo energético e computacional para a aquisição e transmissão da mesma.
 
-### Justificativa:
+### Justificativa
 
 O mundo atual está interligando as pessoas e coisas através de aplicações que estão conectadas pela Internet. Passamos a viver um paradigma no qual é difícil pensar sobre o que não estará conectado em um futuro próximo. O uso de IoT nos leva à concepção de cidades inteligentes. Estas proporcionam às pessoas uma vida facilitada através de aplicações que tornam o dia a dia mais prático por meio de ambientes mais interligados e responsivos. A maior dificuldade para implementação de soluções no ramo da Internet das Coisas passa a ser então a união de conhecimentos sobre software e hardware, juntamente com noções de redes de computadores, circuitos digitais e analógicos, segurança e ferramentas úteis que proporcionem o desenvolvimento de tecnologias de maneira prática e dinâmica.
 
-### Conteúdo:
+### Conteúdo
 
 Assuntos que serão discutidos durante o curso. Para mais detalhes, consulte o cronograma.
 
@@ -32,7 +33,7 @@ Assuntos que serão discutidos durante o curso. Para mais detalhes, consulte o c
 - Segurança e privacidade em nível de IoT.
 - Desenvolvimento de aplicações para cidades inteligentes.
 
-### Bibliografia:
+### Bibliografia
 
 Bibliografia em inglês:
 
