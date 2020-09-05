@@ -20,9 +20,9 @@ Com isso, o módulo do sensor contem um CI BISS0001 no qual recebe essa frequên
 
 O sensor é capaz de identificar presença de 3m até 7m de alcance (valores configuraveis por um potenciômetro) com 100º/110º de ângulo.
 
-![Range1](imgs/range.jpg)
+![Range1](imgs/range.JPG)
 
-![Range2](imgs/range2.jpg)
+![Range2](imgs/range2.JPG)
 
 No módulo do sensor, contem um potênciometro no qual é responsável por ajustar a sensibilidade com o range de 3m (potenciômetro totalmente fechado, sentido horário) e 7m (potenciômetro totalmente aberto, sentido anti-horário). Esses valores são controlados pelo CI BISS0001 e não foi encontrado em nenhum site os valores minimos e máximos para chegar nessas distâncias de detecção.
 
@@ -62,7 +62,7 @@ N/A
 
 0.1Hz, conforme a figura a seguir:
 
-![Resposta](imgs/response.jpg)
+![Resposta](imgs/response.JPG)
 
 ### Linearidade dinâmica
 
