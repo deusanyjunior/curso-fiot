@@ -18,18 +18,22 @@ Este dispositivo varia a tensão de saída em função a distância de detecçã
 - Temperatura de Armazenagem: -40 até +70 °C 
 
 ### Sensibilidade
+Como o sensor e analogo, não há uma sensibilidade especifica. 
 
 Como o sensor e análogo, não há uma sensibilidade especificada. 
 
 ### Faixa
+A faixa do sensor especificada é de 10 cm até 80 cm, porem segundo Malheiros et. al. demostra usabilidade a partir de 8 cm.
 
 A faixa do sensor especificada é de 10 cm até 80 cm, porem segundo Malheiros et. al. o sensor demonstra usabilidade a partir de 8 cm.
 
 ### Precisão
+Segundo Malheiros et al. o sensor demostra um desvio padrão na tensão de saida de 0,030 mV, indiferentemente da distancia do objeto. A tensão de saida varia entre 3 V para 8 cm e 0,4 V para 80 cm. Dado uma precisão de 99,9% (sendo 3,09 desvios) a precisão varia entre +/- 0,25 cm para 8 cm e +/- 18,54 cm para 80 cm.
 
 Segundo Malheiros et al. o sensor demonstra um desvio padrão na tensão de saída de 0,030 mV, indiferentemente da distância do objeto. A tensão de saída varia entre 3 V para 8 cm e 0,4 V para 80 cm. Dado uma precisão de 99,9% (sendo 3,09 desvios) a precisão varia entre +/- 0,25 cm para 8 cm e +/- 18,54 cm para 80 cm.
 
 ### Exatidão
+Não há dados sobre a exatidão do sensor. 
 
 A exatidão da medição varia em função de dois fatores: O ângulo da superfície e a direção de movimento do objeto.
 
@@ -46,10 +50,12 @@ O posicionamento do sensor diretamente influencia a exatidão, especialmente se 
 ![Direção de movimento correto e errado](./imgs/GP2Y0A21YK0F_Exatidao_Posicao.png)
 
 ### Resolução
+Como o sensor não tem saída digital, não há uma resolução especifica.
 
 Como o sensor não tem saída digital, não há uma resolução específica.
 
 ### Offset
+O sensor não tem um offset especificado por demostrar uma saida instavél entre 0-8 cm e pelo comportamento altamente não linear (veja a abaixo). 
 
 O offset da tensão de saída é de 0,4 V para 80 cm. A largura da faixa de tensão de saída varia entre 1,65 V e 2,15 V.
 
