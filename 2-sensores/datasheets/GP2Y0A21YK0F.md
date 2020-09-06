@@ -18,16 +18,22 @@ Este dispositivo emite a tensão correspondente à distância de detecção. Por
 - Temperatura de Armazenagem: -40 até +70 °C 
 
 ### Sensibilidade
+Como o sensor e analogo, não há uma sensibilidade especifica. 
 
 ### Faixa
+A faixa do sensor especificada é de 10 cm até 80 cm, porem segundo Malheiros et. al. demostra usabilidade a partir de 8 cm.
 
 ### Precisão
+Segundo Malheiros et al. o sensor demostra um desvio padrão na tensão de saida de 0,030 mV, indiferentemente da distancia do objeto. A tensão de saida varia entre 3 V para 8 cm e 0,4 V para 80 cm. Dado uma precisão de 99,9% (sendo 3,09 desvios) a precisão varia entre +/- 0,25 cm para 8 cm e +/- 18,54 cm para 80 cm.
 
 ### Exatidão
+Não há dados sobre a exatidão do sensor. 
 
 ### Resolução
+Como o sensor não tem saída digital, não há uma resolução especifica.
 
 ### Offset
+O sensor não tem um offset especificado por demostrar uma saida instavél entre 0-8 cm e pelo comportamento altamente não linear (veja a abaixo). 
 
 ### Linearidade
 
