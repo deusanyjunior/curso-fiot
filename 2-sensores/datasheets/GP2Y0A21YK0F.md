@@ -55,6 +55,10 @@ O sensor não tem um offset especificado por demostrar uma saida instavél entre
 
 ### Linearidade
 
+O sensor tem um comportamento altamente não linear. 
+
+![Não linearidade entre tensão de saída e distância do objeto](./imgs/GP2Y0A21YK0F_Linearidade.png)
+
 ### Histerese
 
 ### Tempos de resposta
