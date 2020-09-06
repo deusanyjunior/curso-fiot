@@ -63,13 +63,23 @@ O sensor tem um comportamento altamente não linear.
 
 ### Tempos de resposta
 
+Após de ter ligado sensor há um tempo de até 48 ms antes uma primeira medição pode ser feito.
+
+Um vez ligado, sensor tem um tempo de resposta de 5 ms.
+
+![Tempo de Resposta para primeira medição e entre medições](./imgs/GP2Y0A21YK0F_Tempo_de_Resposta.png)
+
+
 ### Linearidade dinâmica
 
 ## Fotos
 
+![Imagem do Sensor GP2Y0A21YK0F](./imgs/GP2Y0A21YK0F.png)
+
+
 ## Referências
 
-[Datasheet GP2Y0A21YK0F](https://global.sharp/products/device/lineup/data/pdf/datasheet/gp2y0a21yk_e.pdf)
+[Datasheet c](https://global.sharp/products/device/lineup/data/pdf/datasheet/gp2y0a21yk_e.pdf)
 
 [Malheiros, P., Gonc¸alves, J., and Costa, P. (2009). Towards a more Accurate Infrared Distance
 Sensor Model. In International Symposium on Computational Intelligence for Engineering
