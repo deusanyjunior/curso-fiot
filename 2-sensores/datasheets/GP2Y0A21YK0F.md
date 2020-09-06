@@ -70,7 +70,6 @@ tempo de inicialização de 44 ms.
 
 ![Tempo de Resposta para primeira medição e entre medições](./imgs/GP2Y0A21YK0F_Tempo_de_Resposta.png)
 
-
 ### Linearidade dinâmica
 
 O sensor tem um comportamento altamente não linear. 
@@ -78,7 +77,6 @@ O sensor tem um comportamento altamente não linear.
 ## Fotos
 
 ![Imagem do Sensor GP2Y0A21YK0F](./imgs/GP2Y0A21YK0F.png)
-
 
 ## Referências
 
@@ -88,8 +86,4 @@ O sensor tem um comportamento altamente não linear.
 
 [GP2Y0A21YK0F Datasheet from Solar Robotics, Novembro 2011](https://solarbotics.com/wp-content/uploads/airrs-manual-35238-nov-7-2011.pdf)
 
-
-[Malheiros, P., Gonc¸alves, J., and Costa, P. (2009). Towards a more Accurate Infrared Distance
-Sensor Model. In International Symposium on Computational Intelligence for Engineering
-Systems., Porto](https://pdfs.semanticscholar.org/8d5d/4d42800577d6fba17208f31046f39feaff30.pdf)
-
+[Malheiros, P., Gonc¸alves, J., and Costa, P. (2009). Towards a more Accurate Infrared Distance Sensor Model. In International Symposium on Computational Intelligence for Engineering Systems., Porto](https://pdfs.semanticscholar.org/8d5d/4d42800577d6fba17208f31046f39feaff30.pdf)
