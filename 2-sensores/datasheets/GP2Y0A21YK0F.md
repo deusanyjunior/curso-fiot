@@ -61,6 +61,8 @@ O sensor tem um comportamento altamente não linear.
 
 ### Histerese
 
+Não há uma histerese especificada para o sensor GP2Y0A21YK0F.
+
 ### Tempos de resposta
 
 Segundo o Datasheet do ano 2005 o sensor tem um tempo de resposta de 39 ms. Além disso o sensor requer um 
@@ -70,6 +72,8 @@ tempo de inicialização de 44 ms.
 
 
 ### Linearidade dinâmica
+
+O sensor tem um comportamento altamente não linear. 
 
 ## Fotos
 
