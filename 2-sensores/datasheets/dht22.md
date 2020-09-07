@@ -37,4 +37,6 @@
 ## Referências
 
 [FilipeFlop.com](https://img.filipeflop.com/files/download/Datasheet_DHT22_AM2302.pdf)
+
+
 [DataSheet.pdf](https://datasheetspdf.com/datasheet/DHT22.html)
