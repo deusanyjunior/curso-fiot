@@ -5,7 +5,7 @@
 
 
 
-O sensor DHT11 é um sensor digital composto, capaz de medir a temperatura (ºC) e a umidade relativa (UR) do ar. Os dados são transmitidos em um único pino, por um sinal serial digital. O sensor apresenta quatro pinos: um pino para alimentação (Vcc); um pino de dados; um pino não utilizado e um pino terra (GND).
+O sensor DHT11 é um sensor digital composto, capaz de medir a temperatura (ºC) e a umidade relativa (UR) do ar. Os dados são transmitidos em um único pino, com um sinal digital serial. O sensor apresenta quatro pinos: um pino para alimentação (Vcc); um pino de dados; um pino não utilizado e um pino terra (GND).
 
 ## Características
 
