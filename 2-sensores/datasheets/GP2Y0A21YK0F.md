@@ -3,13 +3,13 @@
 - Classificação: Sensor de medição de distância
 - Nome técnico: Sharp GP2Y0A21YK0F
 
-O GP2Y0A21YK0F é uma unidade de sensor de medição de distância, composta por uma combinação integrada de detector sensível à posição, diodo de infravermelho e circuito de processamento de sinal.
-A variedade da refletividade do objeto, a temperatura ambiente e a duração da operação não são influenciadas facilmente para a detecção da distância devido à adoção do método de triangulação.
-Este dispositivo emite a tensão correspondente à distância de detecção. Portanto, este sensor também pode ser usado como um sensor de proximidade.
+O GP2Y0A21YK0F é um sensor de medição de distância, composto por um detector sensível à posição, um diodo de luz infravermelha e um circuito de processamento de sinal.
+A variedade da reflexividade do objeto, a temperatura do ambiente e o tempo de uso não influenciam facilmente a detecção da distância devido à adoção do método de triangulação.
+Este dispositivo varia a tensão de saída em função a distância de detecção. Este sensor também pode ser usado como um sensor de proximidade.
 
 ## Características
 
-- Faixa de medição de distância: 10 a 80 cm
+- Faixa de medição de distância: 10 até 80 cm
 - Tipo de saída: Analógica
 - Tamanho: 29,5 × 13 × 13,5 mm
 - Corrente: Tipicamente 30 mA
@@ -19,15 +19,15 @@ Este dispositivo emite a tensão correspondente à distância de detecção. Por
 
 ### Sensibilidade
 
-Como o sensor e analogo, não há uma sensibilidade especifica. 
+Como o sensor e análogo, não há uma sensibilidade especificada. 
 
 ### Faixa
 
-A faixa do sensor especificada é de 10 cm até 80 cm, porem segundo Malheiros et. al. demostra usabilidade a partir de 8 cm.
+A faixa do sensor especificada é de 10 cm até 80 cm, porem segundo Malheiros et. al. o sensor demonstra usabilidade a partir de 8 cm.
 
 ### Precisão
 
-Segundo Malheiros et al. o sensor demostra um desvio padrão na tensão de saida de 0,030 mV, indiferentemente da distancia do objeto. A tensão de saida varia entre 3 V para 8 cm e 0,4 V para 80 cm. Dado uma precisão de 99,9% (sendo 3,09 desvios) a precisão varia entre +/- 0,25 cm para 8 cm e +/- 18,54 cm para 80 cm.
+Segundo Malheiros et al. o sensor demonstra um desvio padrão na tensão de saída de 0,030 mV, indiferentemente da distância do objeto. A tensão de saída varia entre 3 V para 8 cm e 0,4 V para 80 cm. Dado uma precisão de 99,9% (sendo 3,09 desvios) a precisão varia entre +/- 0,25 cm para 8 cm e +/- 18,54 cm para 80 cm.
 
 ### Exatidão
 
@@ -47,11 +47,11 @@ O posicionamento do sensor diretamente influencia a exatidão, especialmente se 
 
 ### Resolução
 
-Como o sensor não tem saída digital, não há uma resolução especifica.
+Como o sensor não tem saída digital, não há uma resolução específica.
 
 ### Offset
 
-O sensor não tem um offset especificado por demostrar uma saida instavél entre 0-8 cm e pelo comportamento altamente não linear (veja a abaixo). 
+O offset da tensão de saída é de 0,4 V para 80 cm. A largura da faixa de tensão de saída varia entre 1,65 V e 2,15 V.
 
 ### Linearidade
 
@@ -63,9 +63,8 @@ O sensor tem um comportamento altamente não linear.
 
 ### Tempos de resposta
 
-Após de ter ligado sensor há um tempo de até 48 ms antes uma primeira medição pode ser feito.
-
-Um vez ligado, sensor tem um tempo de resposta de 5 ms.
+Segundo o Datasheet do ano 2005 o sensor tem um tempo de resposta de 39 ms. Além disso o sensor requer um 
+tempo de inicialização de 44 ms.
 
 ![Tempo de Resposta para primeira medição e entre medições](./imgs/GP2Y0A21YK0F_Tempo_de_Resposta.png)
 
@@ -79,7 +78,12 @@ Um vez ligado, sensor tem um tempo de resposta de 5 ms.
 
 ## Referências
 
-[Datasheet c](https://global.sharp/products/device/lineup/data/pdf/datasheet/gp2y0a21yk_e.pdf)
+[GP2Y0A21YK0F Datasheet from Sharp](https://global.sharp/products/device/lineup/data/pdf/datasheet/gp2y0a21yk_e.pdf)
+
+[GP2Y0A21YK0F Datasheet from Python Exemplary, 2005](http://www.python-exemplary.com/download/GP2Y0A21YK.pdf)
+
+[GP2Y0A21YK0F Datasheet from Solar Robotics, Novembro 2011](https://solarbotics.com/wp-content/uploads/airrs-manual-35238-nov-7-2011.pdf)
+
 
 [Malheiros, P., Gonc¸alves, J., and Costa, P. (2009). Towards a more Accurate Infrared Distance
 Sensor Model. In International Symposium on Computational Intelligence for Engineering
