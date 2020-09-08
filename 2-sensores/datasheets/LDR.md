@@ -42,7 +42,6 @@ Pelo gráfico há uma indicação de linearidade entre a resistência e a intens
 
 
 
-> FOTO
 
 LDR resposta usada em 50ms entre cada valores
 Fonte: https://www.bwp.io/Arduino-Workshops/coding-and-sensors/hysteresis/
@@ -73,8 +72,6 @@ Exemplo de uma saída:
 5.88% 3.12
 ...
 ```
-
-> FOTO
 
 Fonte: https://www.bwp.io/Arduino-Workshops/coding-and-sensors/hysteresis/
 
