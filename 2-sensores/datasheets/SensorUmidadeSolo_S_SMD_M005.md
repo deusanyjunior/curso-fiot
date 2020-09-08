@@ -33,8 +33,8 @@ Ele usa duas ponteiras para passar corrente através do solo, e então lê a res
 
 ## Fotos
 
-![LDR](./../SMD_50_1.png)
-![LDR](./../SMD_50_2.png)
+![LDR](./imgs/SMD_50_1.png)
+![LDR](./imgs/SMD_50_2.png)
 
 ## Referências
 
