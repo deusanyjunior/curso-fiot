@@ -12,12 +12,9 @@ Quando o LDR é colocado em um local escuro, ele terá sua máxima resistência 
 
 ## Sensibilidade
 400nm – 1000nm (25ºC)
-Fonte: https://www.electroschematics.com/wp-content/uploads/2012/12/PDV-P8103-ldr.pdf
 
 ## Faixa
-
 10lux-1000Lux
-Fonte: https://components101.com/sites/default/files/component_datasheet/LDR%20Datasheet.pdf
 
 ### Precisão
 Entre 10 lux e 100 lux:
@@ -25,8 +22,6 @@ Entre 10 lux e 100 lux:
 γ=log(R10/R100) / log(100/10)=log(R10/R100)
 R10, R100: resistência a 10 lux e 100 lux. 
 A tolerância de γ é ±0.1. 
-
-Fonte: http://ronja.twibright.com/datasheets/cds-resistor-pgm.pdf
 
 ### Exatidão
 não encontrado
@@ -40,10 +35,9 @@ não encontrado
 ### Linearidade
 Pelo gráfico há uma indicação de linearidade entre a resistência e a intensidade da luz
 
-![Histerese](imgs/linear_ldr.jpeg)
+![Linearidade](imgs/linear_ldr.jpeg)
 
 LDR resposta usada em 50ms entre cada valores
-Fonte: https://www.bwp.io/Arduino-Workshops/coding-and-sensors/hysteresis/
 
 ### Histerese
 Exemplo de Cálculo para histerese **(pode ser obtida no terminal do Arduino)**
@@ -77,13 +71,16 @@ Fonte: https://www.bwp.io/Arduino-Workshops/coding-and-sensors/hysteresis/
 
 ### Tempos de resposta
 30 - 40 ms
-Fonte: http://ronja.twibright.com/datasheets/cds-resistor-pgm.pdf
 
 ## Fotos
 ![LDR](imgs/ldr.jpeg)
 
 ## Referências
-Advanced Photonix, Inc. CdS Photoconductive Photocells. Mar, 2006. Disponível em <https://www.electroschematics.com/wp-content/uploads/2012/12/PDV-P8103-ldr.pdf> Acesso em set. 2020.
-RS Components. Light dependent resistors. 1997. Disponível em <https://components101.com/sites/default/files/component_datasheet/LDR%20Datasheet.pdf> Acesso em set. 2020.
-Token. General Resistors: CDS Photo Resistors – PGM Series. Disponível em <http://ronja.twibright.com/datasheets/cds-resistor-pgm.pdf> Acesso em set. 2020.
-Bronson Philippa. Hysteresis: Lesson #14 – Non-ideal sensor properties. Disponível em < https://www.bwp.io/Arduino-Workshops/coding-and-sensors/hysteresis/> Acesso em set. 2020.
+Advanced Photonix, Inc. CdS Photoconductive Photocells. Mar, 2006. Disponível em [https://www.electroschematics.com/wp-content/uploads/2012/12/PDV-P8103-ldr.pdf](https://www.electroschematics.com/wp-content/uploads/2012/12/PDV-P8103-ldr.pdf) Acesso em set. 2020.
+
+RS Components. Light dependent resistors. 1997. Disponível em [https://components101.com/sites/default/files/component_datasheet/LDR%20Datasheet.pdf](https://components101.com/sites/default/files/component_datasheet/LDR%20Datasheet.pdf) Acesso em set. 2020.
+
+Token. General Resistors: CDS Photo Resistors – PGM Series. Disponível em [http://ronja.twibright.com/datasheets/cds-resistor-pgm.pdf](http://ronja.twibright.com/datasheets/cds-resistor-pgm.pdf) Acesso em set. 2020.
+
+Bronson Philippa. Hysteresis: Lesson #14 – Non-ideal sensor properties. Disponível em < [https://www.bwp.io/Arduino-Workshops/coding-and-sensors/hysteresis/>](https://www.bwp.io/Arduino-Workshops/coding-and-sensors/hysteresis/%3E) Acesso em set. 2020.
+
