@@ -1,34 +1,55 @@
-## Nome do sensor (DHT22 ou AM2302): 
-	- Classificação: temperatura e umidade; - Nome técnico: DHT22 ou AM2302
+# DHT22 ou AM2302
 
-## Características: 
-	Este sensor permite fazer leituras de temperaturas entre -40 a +80 graus Celsius e umidade entre 0 a 100%.
+- Classificação: temperatura e umidade; 
+- Nome técnico: DHT22 ou AM2302
 
-### Sensibilidade: 
-	umidade 0.1%RH; temperatura 0.1ºC
+## Características
 
-### Faixa: 
-	Umidade de 0% a 100%; temperatura de -40 ºC a 80ºC
+Este sensor permite fazer leituras de temperaturas entre -40 a +80 graus Celsius e umidade entre 0 a 100%.
 
-### Precisão: 
-	umidade +-2% RH(Max +-5%RH) a 25ºC; temperatura <+-0.5ºC
+### Sensibilidade
 
-### Exatidão 
-	umidade +-2% RH(Max +-5%RH) a 25ºC; temperatura <+-0.5ºC
-	
-### Resolução  
-	umidade 0.1%RH; temperatura 0.1ºC
+umidade 0.1%RH
+temperatura 0.1ºC
 
-### Offset n/a
+### Faixa
 
-### Linearidade n/a
+Umidade de 0% a 100%; temperatura de -40 ºC a 80ºC
 
-### Histerese 
-	umidade: +-0.3%RH
+### Precisão
 
-### Tempos de resposta : 2s
+umidade +-2% RH(Max +-5%RH) a 25ºC;
+temperatura <+-0.5ºC
 
-### Linearidade dinâmica: n/a
+### Exatidão
+
+umidade +-2% RH(Max +-5%RH) a 25ºC;
+temperatura <+-0.5ºC
+
+### Resolução
+
+umidade 0.1%RH;
+temperatura 0.1ºC
+
+### Offset
+
+n/a
+
+### Linearidade
+
+n/a
+
+### Histerese
+
+umidade: +-0.3%RH
+
+### Tempos de resposta
+
+2s
+
+### Linearidade dinâmica
+
+n/a
 
 ## Fotos
 
@@ -37,6 +58,5 @@
 ## Referências
 
 [FilipeFlop.com](https://img.filipeflop.com/files/download/Datasheet_DHT22_AM2302.pdf)
-
 
 [DataSheet.pdf](https://datasheetspdf.com/datasheet/DHT22.html)
