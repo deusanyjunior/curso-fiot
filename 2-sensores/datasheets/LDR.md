@@ -83,4 +83,7 @@ Fonte: http://ronja.twibright.com/datasheets/cds-resistor-pgm.pdf
 ![LDR](imgs/ldr.jpeg)
 
 ## Referências
-
+Advanced Photonix, Inc. CdS Photoconductive Photocells. Mar, 2006. Disponível em <https://www.electroschematics.com/wp-content/uploads/2012/12/PDV-P8103-ldr.pdf> Acesso em set. 2020.
+RS Components. Light dependent resistors. 1997. Disponível em <https://components101.com/sites/default/files/component_datasheet/LDR%20Datasheet.pdf> Acesso em set. 2020.
+Token. General Resistors: CDS Photo Resistors – PGM Series. Disponível em <http://ronja.twibright.com/datasheets/cds-resistor-pgm.pdf> Acesso em set. 2020.
+Bronson Philippa. Hysteresis: Lesson #14 – Non-ideal sensor properties. Disponível em < https://www.bwp.io/Arduino-Workshops/coding-and-sensors/hysteresis/> Acesso em set. 2020.
