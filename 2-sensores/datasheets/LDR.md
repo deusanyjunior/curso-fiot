@@ -36,7 +36,7 @@ não encontrado
 Pelo gráfico há uma indicação de linearidade entre a resistência e a intensidade da luz
 
 ![Linearidade](imgs/linear_ldr.jpeg)
-
+Fonte: https://www.bwp.io/Arduino-Workshops/coding-and-sensors/hysteresis/
 LDR resposta usada em 50ms entre cada valores
 
 ### Histerese
