@@ -40,9 +40,7 @@ não encontrado
 ### Linearidade
 Pelo gráfico há uma indicação de linearidade entre a resistência e a intensidade da luz
 
-
-
-> FOTO
+![Histerese](imgs/linear_ldr.jpeg)
 
 LDR resposta usada em 50ms entre cada valores
 Fonte: https://www.bwp.io/Arduino-Workshops/coding-and-sensors/hysteresis/
@@ -73,8 +71,7 @@ Exemplo de uma saída:
 5.88% 3.12
 ...
 ```
-
-> FOTO
+![Histerese](imgs/histerese_ldr.jpeg)
 
 Fonte: https://www.bwp.io/Arduino-Workshops/coding-and-sensors/hysteresis/
 
@@ -83,7 +80,7 @@ Fonte: https://www.bwp.io/Arduino-Workshops/coding-and-sensors/hysteresis/
 Fonte: http://ronja.twibright.com/datasheets/cds-resistor-pgm.pdf
 
 ## Fotos
-
+![LDR](imgs/ldr.jpeg)
 
 ## Referências
 
