@@ -53,7 +53,8 @@ Informação não encontrada.
 
 ## Fotos
 
-(Em anexo)
+
+![ADXL](imgs/adxl330.jpg)
 
 ## Referências
 
