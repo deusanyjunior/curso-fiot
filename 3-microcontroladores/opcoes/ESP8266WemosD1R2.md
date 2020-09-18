@@ -31,7 +31,7 @@ Comandos AT para interface com memória, teste, reinício, sleep mode, WiFi e TC
 ### Memória
 
 - Tipo: Flash
-- Tamanho: 8MB de memória
+- Tamanho: 4MB de memória
 
 ### GPIO
 
