@@ -41,7 +41,7 @@ Este dispositivo faz isso, serve para isso, pode ser bom para isso, etc.
 
 ## Fotos
 
-![Z80](imgs/Zilog_Z80.jpg)
+![esp8266wemosd1r2](imgs/esp8266wemosd1r2.jpg)
 
 ## Referências
 
