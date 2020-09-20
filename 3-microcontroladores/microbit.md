@@ -58,10 +58,11 @@ O micro:bit é uma placa programável criada para ensinar programação para cri
 
 ## Referências
 
-https://tech.microbit.org/hardware/ 
+https://tech.microbit.org/hardware/
 https://tech.microbit.org/hardware/#interface
 https://pt.qwe.wiki/wiki/Micro_Bit 
 https://pt.wikipedia.org/wiki/Micro_Bit
 https://tecnologia.educacional.com.br/project/bbcmicrobit/
 https://microbit.org/
 https://makecode.microbit.org/
+
