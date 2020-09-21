@@ -50,7 +50,6 @@ N/A
 
 144 portas de entradas e saídas, todas com suporte para interrupção. Cada pino é programavel, podendo encontrar os seguintes recursos:
 
-Tipos: 
 - I2C, SPI, USART/UART/LPUART, SAIs, CAN, USB OTG, ADC, DAC.
 
 ### Recursos
@@ -81,7 +80,7 @@ Tipos:
 
 ## Referências
 
-[ST - Nucleo](https://www.st.com/en/evaluation-tools/nucleo-h755zi-q.html)
-[Datasheet - Nucleo](https://www.st.com/resource/en/user_manual/dm00499171-stm32h7-nucleo144-boards-mb1363-stmicroelectronics.pdf)
-[ST - Chip](https://www.st.com/en/microcontrollers-microprocessors/stm32h755zi.html)
-[Reference Manual](https://www.st.com/resource/en/reference_manual/dm00176879-stm32h745755-and-stm32h747757-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)
+- [ST - Nucleo](https://www.st.com/en/evaluation-tools/nucleo-h755zi-q.html)
+- [Datasheet - Nucleo](https://www.st.com/resource/en/user_manual/dm00499171-stm32h7-nucleo144-boards-mb1363-stmicroelectronics.pdf)
+- [ST - Chip](https://www.st.com/en/microcontrollers-microprocessors/stm32h755zi.html)
+- [Reference Manual](https://www.st.com/resource/en/reference_manual/dm00176879-stm32h745755-and-stm32h747757-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)
