@@ -1,11 +1,11 @@
 # NUCLEO-H755ZI-Q
 
-- Classificação: Nucleo board - Microcontrolador
+- Classificação: Núcleo board - Microcontrolador
 - Nome técnico: NUCLEO-H755ZI-Q
 - Ano de lançamento: 15/02/2017
 
 A familía STM32H7 é a mais poderosa de microcontroladores de 32 bits baseados em núcleos ARM Cortex-M, dentro de todas populares e oferecidas pela ST Microelectronics.
-Essa placa de alta performance, é tão rápida e oferece tantos recursos avançados que começa a confundir a linha entre o microcontrolador e o microprocessador. Com ela é possível trabalhar em projetos com IA, automotiva e dentro outros que exigem velocidades de processamento rápidos.
+Essa placa de alta performance, é tão rápida e oferece tantos recursos avançados que começa a confundir a linha entre o microcontrolador e o microprocessador. Com ela é possível trabalhar em projetos com IA, automotiva e dentre outros que exigem velocidades de processamento rápidos.
 
 ## Características
 
@@ -13,11 +13,11 @@ Essa placa possuí dois nucleos de alto desempenho, sendo um Arm Cortex M7 de 48
 
 ### Arquitetura
 
-Ambos nucleos da placa são baseados na arquitetura RISC.
+Ambos núcleos da placa são baseados na arquitetura Harvard.
 
 ### Conjunto de instruções
 
-Instruções DSP.
+Instruções RISC.
 
 ### CPU
 
@@ -27,7 +27,7 @@ Cortex M7:
 
 Cortex M4:
 - Clock: até 240MHz
-- Cache: Cache L1 de 16 Kbytes de dados e 16 Kbytes de cache de instruções
+- Cache: N/A
 
 ### GPU
 
@@ -72,7 +72,6 @@ N/A
 - 2 × comparadores de energia ultrabaixa
 - 2 × amplificadores operacionais (largura de banda de 7,3 MHz)
 - 1 × filtro digital para modulador sigma delta (DFSDM) com 8 canais / 4 filtros
-- WatchDog
 
 ## Fotos
 
