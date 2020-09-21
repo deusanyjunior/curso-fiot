@@ -59,5 +59,7 @@ Broadcom VideoCore IV
 ## Referências
 
 [Wikipedia Article](https://en.wikipedia.org/wiki/Raspberry_Pi)
+
 [Official Site](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/)
+
 [Official FAQ](https://www.raspberrypi.org/documentation/faqs)
