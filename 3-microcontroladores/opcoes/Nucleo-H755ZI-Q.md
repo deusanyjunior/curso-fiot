@@ -50,7 +50,7 @@ N/A
 
 144 portas de entradas e saídas, todas com suporte para interrupção. Cada pino é programavel, podendo encontrar os seguintes recursos:
 
-- I2C, SPI, USART/UART/LPUART, SAIs, CAN, USB OTG, ADC, DAC.
+- I2C, SPI, USART/UART/LPUART, SAIs, CAN, USB OTG, ADC, DAC e entre outros...
 
 ### Recursos
 
