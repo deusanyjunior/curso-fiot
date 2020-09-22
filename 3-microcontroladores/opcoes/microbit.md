@@ -54,7 +54,7 @@ O micro:bit é uma placa programável criada para ensinar programação para cri
 
 ## Fotos
 
-![microbit](opcoes/imgs/microbit.png)
+![microbit](imgs/microbit.png)
 
 ## Referências
 
