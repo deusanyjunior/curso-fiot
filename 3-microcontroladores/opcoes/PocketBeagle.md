@@ -64,11 +64,15 @@ RISC
 ## Fotos
 
 ![Board Front](imgs/PocketBeagle_Front_BW.jpg)
+
 ![Board Back](imgs/PocketBeagle_Back_BW.jpg)
+
 ![CPU Module blocks](imgs/PocketBeagle_cpublock.png)
 
 ## Referências
 
 [Manual](https://github.com/beagleboard/pocketbeagle/wiki/System-Reference-Manual)
+
 [GPU](https://en.wikipedia.org/wiki/PowerVR#Series5_(SGX))
+
 [CPU](https://www.ti.com/lit/ds/symlink/am3358.pdf?ts=1600798333233&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FAM3358)
