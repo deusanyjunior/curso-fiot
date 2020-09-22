@@ -21,13 +21,13 @@ Instruções RISC.
 
 ### CPU
 
-Cortex M7:
-- Clock: até 480MHz
-- Cache: Cache L1 de 16 Kbytes de dados e 16 Kbytes de cache de instruções
+- Cortex M7:
+  - Clock: até 480MHz
+  - Cache: Cache L1 de 16 Kbytes de dados e 16 Kbytes de cache de instruções
 
-Cortex M4:
-- Clock: até 240MHz
-- Cache: N/A
+- Cortex M4:
+  - Clock: até 240MHz
+  - Cache: N/A
 
 ### GPU
 
@@ -35,12 +35,11 @@ N/A
 
 ### Memória
 
-Memória Flash:
-- Tamanho: 2MBytes
+- Memória Flash:
+  - Tamanho: 2MBytes
 
-Memória RAM:
-- Tamanho: 1MBytes
-(92 Kbytes de TCM RAM (incluindo 64 Kbytes de ITCM RAM + 128 Kbytes de DTCM RAM para rotinas de tempo crítico), 864 Kbytes de SRAM do usuário e 4 Kbytes de SRAM no domínio de backup)
+- Memória RAM:
+  - Tamanho: 1MBytes (92 Kbytes de TCM RAM (incluindo 64 Kbytes de ITCM RAM + 128 Kbytes de DTCM RAM para rotinas de tempo crítico), 864 Kbytes de SRAM do usuário e 4 Kbytes de SRAM no domínio de backup)
 
 - Interface de memória Quad-SPI de modo dual rodando até 133 MHz
 - Controlador de memória externa flexível com barramento de dados de até 32 bits: SRAM, PSRAM, SDRAM / LPSDR SDRAM, memória Flash NOR / NAND com clock de até 125 MHz no modo síncrono
