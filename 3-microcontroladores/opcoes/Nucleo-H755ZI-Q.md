@@ -31,7 +31,7 @@ Instruções RISC.
 
 ### GPU
 
-N/A
+N/A 
 
 ### Memória
 
