@@ -35,10 +35,10 @@ N/A
 
 ### Memória
 
-- Memória Flash:
+Memória Flash:
 - Tamanho: 2MBytes
 
-- Memória RAM:
+Memória RAM:
 - Tamanho: 1MBytes
 (92 Kbytes de TCM RAM (incluindo 64 Kbytes de ITCM RAM + 128 Kbytes de DTCM RAM para rotinas de tempo crítico), 864 Kbytes de SRAM do usuário e 4 Kbytes de SRAM no domínio de backup)
 
