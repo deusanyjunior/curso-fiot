@@ -9,7 +9,7 @@ Esta placa, em especial possui saída de vídeo em 4K, o que a torna interessant
 
 ## Características
 
-Semelhante ao Raspiberry Pi 3, possui tamanho semelhante a um cartão de crédito, e é rico em entradas e saídas para permitir utilização em diversos projetos.
+Semelhante ao Raspiberry Pi 3, possui tamanho de um cartão de crédito, e é rico em entradas e saídas para permitir utilização em diversos projetos.
 
 ### Arquitetura
 
@@ -68,5 +68,7 @@ ARM Mali GPU T760 MP4
 ## Referências
 
 [Documentação no site da ASUS](https://www.asus.com/Single-Board-Computer/Tinker-Board/)
+
 [FAQ da ASUS Tinker Board (ASUS)](http://dlcdnet.asus.com/pub/ASUS/mb/Linux/Tinker_Board_2GB/FAQ-Tinkerboard_20170425.pdf?_ga=2.238646848.1977487471.1497925364-1326992642.1492409882)
+
 [Manual de Instruções](https://www.asus.com/Single-Board-Computer/Tinker-Board/HelpDesk_Manual/)
