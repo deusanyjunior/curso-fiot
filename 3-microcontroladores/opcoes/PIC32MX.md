@@ -5,7 +5,8 @@
 - Ano de lançamento: 2011
 
 O PIC32MX110F016B faz parte da família de microcontroladores PIC32, fabricados pela Microchip.
-Eles são usados tanto por desenvolvedores de sistemas embarcados industriais quanto hobistas devido ao seu baixo custo, alta disponibilidade, ferramentas de desenvolvimento gratuitas e grande base de usuários. 
+
+São usados tanto por desenvolvedores de sistemas embarcados industriais quanto hobistas devido ao seu baixo custo, alta disponibilidade, ferramentas de desenvolvimento gratuitas e grande base de usuários. 
 
 ## Características
 
