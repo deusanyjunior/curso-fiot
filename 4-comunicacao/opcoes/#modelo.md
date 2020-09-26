@@ -4,9 +4,7 @@
 - Concepção: 1998
 - Lançamento: 2012
 
-Descrição:
-
-Sugestões de uso:
+Descrição: Permite uma comunicação entre x, y, z e é útil para trocar dados nas condições a, b, c.
 
 ## Características
 
@@ -20,6 +18,10 @@ Sugestões de uso:
 
 - RFC, IEEE, ABNT
 - Tecnologias que usam
+
+### Exemplo de uso
+
+![Multicast RP](imgs/multicast.png)
 
 ## Referências
 
