@@ -14,8 +14,9 @@ O sensor PIR é capaz de detectar a variação de luz infravermelha emitida pela
 O sensor PIR possui dois slots nele, no qual cada slot é feito de um material especial que é sensível a uma variação infravermelho. Os dois slots podem chegar até alguma distância (que é a faixa de distância alcançada pelo sensor). Quando o sensor está ocioso, ambos os slots detectam a mesma quantidade de radição infravermelho. Quando um corpo radiante de infravermelhor passa na faixa desses slots, primeiramente o primeiro slot é interceptado, que causa um diferencial positivo entre as duas metades no sensor. Quando o mesmo corpo passa pelo outro slot, o contrário acontece, o sensor gera uma mudança diferencial negativa. Assim construindo um sinal conforme a figura a seguir:
 
 ![funcionamento](imgs/funcionamento.JPG)
+![funcionamento](imgs/range.jpg)
 
-Com isso, o módulo do sensor contem um CI BISS0001 no qual recebe essa frequência gerada pelo sensor e interpreta gerando uma saída binária (0 ou 1). O valor tipico conforme datasheet do CI para detecção é de 16KHz. 
+Com isso, o módulo do sensor contem um CI BISS0001 no qual recebe essa frequência gerada pelo sensor e interpreta gerando uma saída binária (0 ou 1). O valor tipico conforme datasheet do CI para detecção é de 16KHz.
 
 O sensor é capaz de identificar presença de 3m até 7m de alcance (valores configuraveis por um potenciômetro) com 100º/110º de ângulo.
 
@@ -45,7 +46,9 @@ N/A
 
 ### Offset
 
-0.2V
+minimo de 0.2V na saída do sensor.
+
+![Resposta](imgs/response.jpg)
 
 ### Linearidade
 
@@ -88,4 +91,3 @@ Foram encontrados datasheets de diferentes autores mostrando o mesmo sensor:
 [Sc Tech](https://win.adrirobot.it/datasheet/speciali/pdf/BISS0001.pdf)
 
 [Perkinelmer - Catálogo de sensores](https://www.perkinelmer.com/PDFs/Downloads/CAT_SensorsAndEmittersInfraredSensing.pdf)
-
