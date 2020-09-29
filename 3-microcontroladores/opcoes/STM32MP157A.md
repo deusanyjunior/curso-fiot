@@ -42,6 +42,7 @@ Vivante - Open GL ES 2.0
 
 ## Fotos
 
+![STM32MP157A](imgs/STM32MP157.png)
 ![STM32MP157A](imgs/STM32MP157A.png)
 
 ## Referências
