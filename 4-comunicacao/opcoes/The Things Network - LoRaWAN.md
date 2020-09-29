@@ -1,10 +1,11 @@
-#  The Things Network (TTN) - LoRaWAN
+# The Things Network (TTN) - LoRaWAN
 
 - Classificação: Protocolo
 - Concepção: 2009
 - Lançamento: 2013
 
-LoRaWAN é um protocolo de comunicação feito para ser utilizado com a tecnologia LoRa.\
+LoRaWAN é um protocolo de comunicação feito para ser utilizado com a tecnologia LoRa.
+
 The Things Network (TTN) é uma implementação global de acesso público de uma rede LoRaWAN.
 
 ## Características
@@ -24,6 +25,7 @@ LoRa é uma tecnologia de modulação RF apenas, equivalente a camada física do
 LoRaWAN é um protocolo desenvolvido para acompanhar a tecnologia LoRa. Foi construído para permitir a interoperabilidade entre dispositivos LoRa e fornecer features associados a camadas mais altas do modelo OSI.
 
 Qualquer gateway LoRaWAN é capaz de receber dados de qualquer dispositivo LoRaWAN. Os dados são então transmitidos via IP a um servidor que provê serviços tais como:
+
 - Descarte de pacotes duplicados
 - Confirmação de recebimento
 - Retransmisão de dados corrompidos
@@ -35,7 +37,6 @@ Isso significa que enquanto LoRa provê a camada física da rede, LoRaWAN provê
 Há algumas limitações no protocolo LoRaWAN, principalmente em relação a sua escalabilidade quando há muitos dispositivos. É previsto que com mais de 1000 dispositivos em um raio de 10km haveriam problemas de interferência.
 
 O protocolo LoRaWAN provê os meios para criação de uma rede mais robusta, porém fica a cargo de cada interessado de fato implementar a sua rede.
-
 
 ## Rede The Things Network (TTN)
 
@@ -50,7 +51,6 @@ The Things Network consiste de diversos gateways LoRaWAN operados por indivíduo
 As vantagens para os indvíduos que operam os gateways são que não há necessidade de operar todo o stack de uma rede LoRaWAN, apenas o gateway, que é bastante simples.
 
 Como todo gateway aceita protocolos de qualquer dispositivo, o resultado é uma rede LoRaWAN de alcançe global e acesso aberto e gratuíto.
-
 
 ## Exemplo de uso
 
