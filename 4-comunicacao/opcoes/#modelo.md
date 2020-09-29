@@ -7,8 +7,11 @@
 Descrição: O termo Wi-Fi é usado frequentemente como sinônimo para a tecnologia IEEE 802.11. o termo Wi-Fi origina da contração das palavras Wireless Fidelity. 
 O Wi-Fi N refere-se a tecnologia IEEE 802.11N: Padrão Wi-Fi para frequência 2,4 GHz e/ou 5 GHz com capacidade de 54 Mbit/s A 72 Mbit/s OPERANDO NO CANAL DE 20Mhz e até 600 Mbps operando no canal de 40Mhz. Esse padrão utiliza como método de transmissão MIMO (multiple-input multiple-output) ou Multiplas Entradas e Múltiplas Saídas onde são utilizadas múltiplas antenas. 
 O Wifi-4 já é ultrapassado, levando em consideração que em 2020 já existe o Wifi-6 (Wifi-ax).
+
 Os principais objetivos na criação deste padrão foram:
+
 •	Aumento de velocidade e banda para suportar serviços como HDTV (High DefinitionTelevision), VoD (VideoonDemand) entre outros;
+
 •	Prover meios que permitissem a interoperabilidade desse padrão com as tecnologias antecessoras.
 
 
