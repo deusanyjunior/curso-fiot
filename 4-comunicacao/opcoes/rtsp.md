@@ -15,21 +15,21 @@ O Real Time Streaming Protocol (RTSP) é usado para transmissão de dados de mul
 
 ## Características
 
-O RTSP é usado exclusivamente para o envio de comandos de controle e se baeseia no TCP. O envio dos dados de multimídia será feito via o RTP (Real-time Transport Protocol) e RTCP (Real-time Control Protocol), que se baseia principalmente no UDP. Porém, um envio por TCP também é possível mas costuma ser menos eficiente.  
+O RTSP se baeseia no TCP e cuida exclusivamente dos envios de comandos de controle entre o cliente e servidor. A transmissão dos dados de multimídia é feito pelos protocolos de RTP (Real-time Transport Protocol) e RTCP (Real-time Control Protocol), que se baseia principalmente no UDP. Porém, um envio por TCP também é possível mas costuma ser menos eficiente.  
 
 ![Estados do protocolo RTSP](./imgs/rtsp_state_diagram.png)
 
-O RTSP trabalha com estados que são alterados através dos comandos do RTCP. Os principais estados e comandos são ilustrados na imagem encima.
+O RTSP trabalha com estados que são alterados através de comandos. Os principais estados e comandos são ilustrados na imagem encima.
 
-Além dos comandos básicos (SETUP, PLAY, PAUSE, TEARDOWN) existem comandos adicionais como OPTIONS, DESCRIBE, PLAY_NOTIFY, GET_PARAMETER, SET_PARAMETER e REDIRECT. A maioria dos dados são enviados do cliente para servidor, mas alguns comandos (GET_PARAMETER, REDIRECT, PLAY_NOTIFY) são enviados do servidor para o cliente.
+Além dos comandos básicos (SETUP, PLAY, PAUSE, TEARDOWN) existem comandos adicionais como OPTIONS, DESCRIBE, PLAY_NOTIFY, GET_PARAMETER, SET_PARAMETER e REDIRECT. A maioria dos dados são enviados do cliente para servidor, com algumas exceções onde o fluxo é do servidor para o cliente (por exemplo GET_PARAMETER, REDIRECT, PLAY_NOTIFY).
 
-O RTP é desenhado de forma flexível para poder trabalhar com formatos de *payloads* diferentes. O RTP envia os dados usando o *header* ilustado embaixo. O RTCP serve para monitorar o envio de dados e controlar a qualidade do serviço.
+O RTP é desenhado de forma flexível para poder trabalhar com formatos de *payloads* diferentes (por exemplo MPEG-1  ou MPEG-4). O tipo do *payload* e outras informações são incluídos no *header* do RTP, ilustrado na imagem abaixo. O monitoramento e controle da qualidade do serviço dos dados envidados pelo RTP é feito pelo protocolo RTCP.
 
 ![RTP Header](./imgs/rstp_rtp_header.png)
 
 ### Exemplo de uso
 
-Para iniciar o envio de dados precisa da inicialização da conexão:
+Para iniciar o envio dos dados é preciso uma inicialização da conexão:
 
 
     C->S: SETUP rtsp://example.com/media.mp4/streamid=0
@@ -43,7 +43,7 @@ Para iniciar o envio de dados precisa da inicialização da conexão:
           Session: 12345678
 
 
-Uma vez de ter uma sessão inicializada, podemos pedir o envio dos dados de multimídia:
+Uma vez de ter inicializada a sessão, podemos pedir o envio dos dados de multimídia:
 
 
     C->S: PLAY rtsp://example.com/media.mp4 RTSP/1.0
@@ -57,7 +57,7 @@ Uma vez de ter uma sessão inicializada, podemos pedir o envio dos dados de mult
           RTP-Info: url=rtsp://example.com/media.mp4/streamid=0;seq=9810092;rtptime=3450012
 
 
-Para interromper o envio dos dados de multimídia pode ser emitido o comando de PAUSE:
+Para interromper o envio dos dados, o comando de PAUSE deve ser enviado:
 
 
     C->S: PAUSE rtsp://example.com/media.mp4 RTSP/1.0
@@ -69,14 +69,14 @@ Para interromper o envio dos dados de multimídia pode ser emitido o comando de 
           Session: 12345678
 
 
-Para liberar recursos no servidor, deve se encerrar a sessão:
+Para liberar recursos no servidor, deve se encerrar a sessão no final do uso:
 
     C->S: TEARDOWN rtsp://example.com/media.mp4 RTSP/1.0
           CSeq: 8
           Session: 12345678
 
     S->C: RTSP/1.0 200 OK
-          CSeq: 8 
+          CSeq: 8
 
 ## Referências
 
