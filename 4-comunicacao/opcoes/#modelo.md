@@ -27,7 +27,6 @@ Os principais objetivos na criação deste padrão foram:
 
 - n, mas trabalham com a, b e g, que são os anteriores 
 - Método de transmissão: MIMO-OFDM;
-- Faixa de frequência: 2,4GHz e/ou 5.8GHz.
 
 
 ### Exemplo de uso
