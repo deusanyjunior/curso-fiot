@@ -1,4 +1,4 @@
-# Modelo (IR, NFC, TCP, Multicast, CoAP)
+# Modelo (Wi-Fi N)
 
 - Classificação: IEEE 802.11n-2009 - Wi-fi 4
 - Concepção: Primeiros estudos em 2002 e primeiro projeto produzido foi uma versão 2006 - draft
