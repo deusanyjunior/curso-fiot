@@ -13,7 +13,7 @@ Servidores de e-mail usam o protocolo SMTP para enviar e receber mensagens. Foi 
 Para enviar um e-mail, a ordem de operações definida em 1982 era:
 - HELO para iniciar a sessão
 - MAIL para indicar o remetente
-- RCPT para indicar o(s) destinatários
+- RCPT para indicar o(s) destinatário(s)
 - DATA para passar a mensagem
 - QUIT para finaliar seção
 
