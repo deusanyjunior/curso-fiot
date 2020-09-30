@@ -1,4 +1,4 @@
-# Modelo (Wi-Fi N)
+# IEEE 802.11n
 
 - Classificação: IEEE 802.11n-2009 - Wi-fi 4
 - Concepção: Primeiros estudos em 2002 e primeiro projeto produzido foi uma versão 2006 - draft
@@ -10,10 +10,8 @@ O Wifi-4 já é ultrapassado, levando em consideração que em 2020 já existe o
 
 Os principais objetivos na criação deste padrão foram:
 
-•	Aumento de velocidade e banda para suportar serviços como HDTV (High DefinitionTelevision), VoD (VideoonDemand) entre outros;
-
-•	Prover meios que permitissem a interoperabilidade desse padrão com as tecnologias antecessoras.
-
+- Aumento de velocidade e banda para suportar serviços como HDTV (High DefinitionTelevision), VoD (VideoonDemand) entre outros;
+- Prover meios que permitissem a interoperabilidade desse padrão com as tecnologias antecessoras.
 
 ## Características
 
@@ -25,9 +23,8 @@ Os principais objetivos na criação deste padrão foram:
 
 ### Protocolo
 
-- n, mas trabalham com a, b e g, que são os anteriores 
+- n, mas trabalham com a, b e g, que são os anteriores
 - Método de transmissão: MIMO-OFDM;
-
 
 ### Exemplo de uso
 
@@ -37,16 +34,16 @@ Fonte da imagem: https://www.teleco.com.br/tutoriais/tutorialwifiiee/pagina_4.as
 
 ## Referências
 
-(https://pt.wikipedia.org/wiki/Wi-Fi)
+[WiFi - Wikipedia](https://pt.wikipedia.org/wiki/Wi-Fi)
 
-(https://pt.wikipedia.org/wiki/IEEE_802.11#802.11n)
+[IEEE 802.11n - Wikipedia](https://pt.wikipedia.org/wiki/IEEE_802.11#802.11n)
 
-(https://en.wikipedia.org/wiki/IEEE_802.11n-2009)
+[IEEE 802.11n - 2009 - Wikipedia](https://en.wikipedia.org/wiki/IEEE_802.11n-2009)
 
-(https://en.wikipedia.org/wiki/IEEE_802.11ax)
+[IEEE 802.11ax - Wikipedia](https://en.wikipedia.org/wiki/IEEE_802.11ax)
 
-(https://www.minhaconexao.com.br/blog/entenda-a-diferenca-entre-as-redes-wifi-a-b-g-n/)
+[Diferença entre redes wifi - Minha Conexao](https://www.minhaconexao.com.br/blog/entenda-a-diferenca-entre-as-redes-wifi-a-b-g-n/)
 
-(https://www.teleco.com.br/tutoriais/tutorialwifiiee/pagina_4.asp)
+[Tutorial WiFi - Teleco](https://www.teleco.com.br/tutoriais/tutorialwifiiee/pagina_4.asp)
 
-(https://canaltech.com.br/hardware/qual-e-a-diferenca-entre-os-padroes-a-b-g-e-n-dos-roteadores/)
+[Diferença entre padrões a, b, g, e n - CanalTech](https://canaltech.com.br/hardware/qual-e-a-diferenca-entre-os-padroes-a-b-g-e-n-dos-roteadores/)
