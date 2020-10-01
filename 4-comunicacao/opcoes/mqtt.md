@@ -19,6 +19,12 @@ Suporta implantação local ou em nuvem.
 
 ### Exemplo de uso
 
+Neste exemplo, um dispositivo IoT (esquerda) com um sensor de temperatura é um cliente MQTT, que publica um valor de 24°C no tópico "temperatura".
+
+O broker MQTT (meio) é o responsável pela retransmissão da mensagem para outros dois clientes MQTT, inscritos no tópico "temperatura" (direita).
+
+Assim, o valor de 24°C encapsulado como *payload* no protocolo MQTT chega no sistema back-end e no dispositivo móvel, para que este evento seja útil para outras aplicações.
+
 ![Exemplo MQTT](imgs/mqtt.png)
 
 ## Referências
