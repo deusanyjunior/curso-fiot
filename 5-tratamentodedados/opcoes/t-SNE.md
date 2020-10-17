@@ -8,8 +8,7 @@
 
 ### Onde é usado (tecnicamente)
 
-Utilizado para facilitar a visualização de dados não estruturados.
-Mapeia dados de dimensão N para 2 ou 3 dimensões, possibilitando sua visualização em um gráfico.
+Utilizado para mapear dados de N dimensões para 2 ou 3 dimensões. O use-case mais comum disso é fazer a visualização desses dados em um gráfico.
 
 ### Como é utilizado
 
