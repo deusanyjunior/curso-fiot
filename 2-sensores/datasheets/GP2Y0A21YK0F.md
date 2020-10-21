@@ -23,13 +23,19 @@ Como o sensor e análogo, não há uma sensibilidade especificada.
 
 Como o sensor e análogo, não há uma sensibilidade especificada. 
 
+Como o sensor e análogo, não há uma sensibilidade especificada. 
+
 ### Faixa
 
 A faixa do sensor especificada é de 10 cm até 80 cm, porem segundo Malheiros et. al. o sensor demonstra usabilidade a partir de 8 cm.
 
 A faixa do sensor especificada é de 10 cm até 80 cm, porem segundo Malheiros et. al. o sensor demonstra usabilidade a partir de 8 cm.
 
+A faixa do sensor especificada é de 10 cm até 80 cm, porem segundo Malheiros et. al. o sensor demonstra usabilidade a partir de 8 cm.
+
 ### Precisão
+
+Segundo Malheiros et al. o sensor demonstra um desvio padrão na tensão de saída de 0,030 mV, indiferentemente da distância do objeto. A tensão de saída varia entre 3 V para 8 cm e 0,4 V para 80 cm. Dado uma precisão de 99,9% (sendo 3,09 desvios) a precisão varia entre +/- 0,25 cm para 8 cm e +/- 18,54 cm para 80 cm.
 
 Segundo Malheiros et al. o sensor demonstra um desvio padrão na tensão de saída de 0,030 mV, indiferentemente da distância do objeto. A tensão de saída varia entre 3 V para 8 cm e 0,4 V para 80 cm. Dado uma precisão de 99,9% (sendo 3,09 desvios) a precisão varia entre +/- 0,25 cm para 8 cm e +/- 18,54 cm para 80 cm.
 
@@ -65,13 +71,31 @@ O posicionamento do sensor diretamente influencia a exatidão, especialmente se 
 
 ![Direção de movimento correto e errado](./imgs/GP2Y0A21YK0F_Exatidao_Posicao.png)
 
+A exatidão da medição varia em função de dois fatores: O ângulo da superfície e a direção de movimento do objeto.
+
+Dependendo do ângulo e da distância da superfície a exatidão da medição varia conforme a imagem embaixo.
+
+![Exatidão do Sensor em função do ângulo e da distância da superfície](./imgs/GP2Y0A21YK0F_Exatidao_Angulo.png)
+
+Além disso existe uma dependência entre a direção de movimento do objeto e da posição do sensor, ilustrado na seguinte imagem.
+
+![Direção de movimento correto e errado](./imgs/GP2Y0A21YK0F_Posicao.png)
+
+O posicionamento do sensor diretamente influencia a exatidão, especialmente se ha um ângulo entre a superfície e o sensor.
+
+![Direção de movimento correto e errado](./imgs/GP2Y0A21YK0F_Exatidao_Posicao.png)
+
 ### Resolução
 
 Como o sensor não tem saída digital, não há uma resolução específica.
 
 Como o sensor não tem saída digital, não há uma resolução específica.
 
+Como o sensor não tem saída digital, não há uma resolução específica.
+
 ### Offset
+
+O offset da tensão de saída é de 0,4 V para 80 cm. A largura da faixa de tensão de saída varia entre 1,65 V e 2,15 V.
 
 O offset da tensão de saída é de 0,4 V para 80 cm. A largura da faixa de tensão de saída varia entre 1,65 V e 2,15 V.
 
