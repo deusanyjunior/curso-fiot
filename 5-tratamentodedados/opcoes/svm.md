@@ -30,6 +30,7 @@ Em bancos, pode por exemplo, agrupar clientes por determinadas caracteríticas e
 
 ## Referências
 
-[Inferir](inferir.com.br)
+[Wikipedia](https://en.wikipedia.org/wiki/Support_vector_machine)
+[Alura](https://www.alura.com.br/conteudo/machine-learning-introducao-a-classificacao-com-sklearn)
 
-https://www.alura.com.br/conteudo/machine-learning-introducao-a-classificacao-com-sklearn
+
