@@ -21,7 +21,6 @@ Vantagens do algoritmo
 - Avaliação interna da capacidade de generalização do modelo.
 - A capacidade de trabalhar com dados brutos, sem pré-processamento.
 
-
 ## Descrição
 
 ### Onde é usado (tecnicamente)
@@ -42,7 +41,7 @@ Todos passos executados pelo algoritmo serão selecionados aleatoriamente alguma
 
 ### Exemplos de caso de uso
 
-Classificação de regularidades em padrão de navegação.
+Estatística, mineração de dados, aprendizado de máquina e etc...
 
 ## Referências
 
