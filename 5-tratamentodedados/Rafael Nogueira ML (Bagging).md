@@ -1,4 +1,4 @@
-# Algoritmo Bootstrap Aggregatíng (Bagging)
+# Algoritmo Bootstrap Aggregating (Bagging)
 
 - Tipo de aprendizado: N/A
 - Subcategoria: Meta - Algoritmo utilizado para aumento da precisão de preditores.
