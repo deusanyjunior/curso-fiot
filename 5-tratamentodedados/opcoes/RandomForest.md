@@ -3,7 +3,7 @@
 - Tipo de aprendizado: Supervisionado
 - Subcategoria: Regressão/Classificação
 
-Este algoritmo trabalha com a criação de varias arvores de decisão aleatóriamente, formando uma floresta na qual cada arvore é utilizada para se obter o resultado final. 
+Este algoritmo trabalha com a criação de várias arvores de decisão aleatoriamente, formando uma floresta na qual cada arvore é utilizada para se obter o resultado final. 
 
 O método usado consiste em uma combinação de diferentes modelos para se obter um único resultado, tornando assim, um algoritmo mais robusto e complexo, exigindo um poder computacional maior.
 
@@ -17,7 +17,7 @@ Vantagens do algoritmo
 - Um pequeno número de parâmetros configuráveis
 - Sem sensibilidade ao dimensionamento dos valores das características (e a qualquer transformação monótona em geral) devido à seleção de subespaços aleatórios
 - Não requer uma configuração cuidadosa dos parâmetros, funciona bem fora da caixa. O "ajuste" dos parâmetros permite um aumento na precisão de 0,5% a 3%, dependendo da tarefa e dos dados.
-- Funciona bem com dados ausentes — mantém uma boa precisão, mesmo que uma grande parte dos dados esteja ausente.
+- Funciona bem com dados ausentes — mantém uma boa precisão, mesmo que uma grande parte dos dados estejam ausente.
 - Avaliação interna da capacidade de generalização do modelo.
 - A capacidade de trabalhar com dados brutos, sem pré-processamento.
 
@@ -31,7 +31,7 @@ A subcategoria desse algoritmo, pode ser usado como regressão (média dos valor
 
 Como citado na introdução, o algoritmo é utilizado com a combinação de diferentes modelos para se obter um único resultado, serão criadas várias árvores de decisão. Cada arvore pode ser considerado um modelo, se criarmos por exemplo 100 modelos, teremos 100 resultados, que serão agregados em apenas um.
 
-Serão criados vários modelos diferentes a partir de um algoritmo, assim construindo varias arvores de decisão e combinando entre eles para chegar em um resultado final:
+Serão criados vários modelos diferentes a partir de um algoritmo, assim construindo várias arvores de decisão e combinando entre eles para chegar em um resultado final:
 
 ![RANDOMFLOREST](imgs/exemplo_fr.png)
 
@@ -46,4 +46,4 @@ Estatística, mineração de dados, aprendizado de máquina e etc...
 ## Referências
 
 [Artigo - FLORESTA DE DECISÃO ALEATÓRIA NA APRENDIZAGEM POR REFORÇO](https://www.mql5.com/pt/articles/3856)
-[didatica](https://didatica.tech/o-que-e-e-como-funciona-o-algoritmo-randomforest/#:~:text=Em%20portugu%C3%AAs%2C%20Random%20Forest%20significa,na%20escolha%20do%20resultado%20final.)
+[didática](https://didatica.tech/o-que-e-e-como-funciona-o-algoritmo-randomforest/#:~:text=Em%20portugu%C3%AAs%2C%20Random%20Forest%20significa,na%20escolha%20do%20resultado%20final.)
