@@ -20,6 +20,7 @@ RISC
 ##### Octavo Systems OSD3358 1GHz ARM Cortex-A8:
 #### CPU
 ##### Sitara AM3358 ARM Cortex-A8 
+
 - Clock: 1 GHz
 - Cache:
   - L1: 32 KB com 32 KB de detecção de erros (paridade)
