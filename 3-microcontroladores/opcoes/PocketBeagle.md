@@ -11,20 +11,15 @@ Devido a falta de interfaces de comunicação de rede, se faz necessário o uso 
 ## Características
 
 ### Arquitetura
-
 ARM 32 bits
 
 ### Conjunto de instruções
-
 RISC
 
-### Módulo de Processamento
-
-- Octavo Systems OSD3358 1GHz ARM Cortex-A8
-
+### Módulo de Processamento:
+##### Octavo Systems OSD3358 1GHz ARM Cortex-A8:
 #### CPU
-
-##### Sitara AM3358 ARM Cortex-A8
+##### Sitara AM3358 ARM Cortex-A8 
 
 - Clock: 1 GHz
 - Cache:
@@ -34,22 +29,17 @@ RISC
 - Núcleos: 1
 
 #### GPU
-
-##### SGX530 3D Graphics Engine
-
+##### SGX530 3D Graphics Engine 
 - Clock: 200 MHz
 - Cache: N/A
 - Núcleos: 2 pixel e 1 vertex shaders
 
 ### Memória
-
 #### RAM
-
 - Tipo: DDR3 800 MHz
 - Tamanho: 512 MiB
 
 #### ROM
-
 - Tipo: I2C EEPROM
 - Tamanho: 4 KB
 
